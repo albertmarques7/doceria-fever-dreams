@@ -1,0 +1,87 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.container h1 {
+    font-size:32px;
+    font-family: pacifico;
+}
+.container .bi-balloon-heart {
+    color:#f7dfe5;
+    margin-left: 2px;
+    margin-top: 2px;
+    align-items: center;
+    font-size: 38px;
+}
+.carousel {
+    max-height: 800px; /* Defina a altura máxima desejada */
+    overflow: hidden; /* Impede que o conteúdo ultrapasse a altura máxima */
+}
+.carousel img {
+    width: 100%;
+}
+.navbar {
+    background-color: #f3a2be;
+}
+
+.nav-link {
+    color:#a3d1fa;
+}
+#cabecalho .nav .nav-link.active {
+    background-color:#8ad4d5;
+}
+#cabecalho .nav .nav-link:hover {
+    color: #b19cd7;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #F5F5FF;
+}
+
+.navbar-toggler {
+    background-color: #f1f1ff0f;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #f0f9f8;
+}
+
+.text-colored {
+    color: #f3a2be;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+background-color:pink;
+color: #F5F5FF;
+}
+.nav-cardapio .nav-link:hover {
+    color: #b19cd7;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+form {
+    color: #c3b4dd;
+}
+@media (max-width: 767px) {
+    .bi-balloon-heart {
+        margin-right: 222px;
+    }
+    .carousel-item img {
+        height: 280px;
+    }
+    
+}
